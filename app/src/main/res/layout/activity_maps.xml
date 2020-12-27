@@ -11,8 +11,8 @@
         android:id="@+id/mapToolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/ThemeOverlay.AppCompat"/>
 
     <fragment
         android:id="@+id/myMap"
