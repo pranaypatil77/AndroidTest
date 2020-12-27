@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AndroidTest</string>
+    <string name="title_activity_maps">Map</string>
+<!--    menu items-->
+    <string name="menu_search">Search</string>
+    <string name="menu_map">map</string>
+    <string name="menu_logout">logout</string>
+<!--recycler items-->
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+<!--    login screen-->
+    <string name="login">Login</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="inputcheck">Please Enter USERNAME and PASSWORD</string>
+    <string name="inputvalid">Enter Valid Username and Password</string>
+    <string name="please_wait">please wait..\n verifying user..</string>
+
+<!--    home screen-->
+    <string name="load">please wait..</string>
+    <string name="exit">press again to exit app</string>
+    <string name="error">Something went wrong</string>
+    <string name="search_hint">Enter Name</string>
+    <string name="logout_s">Logout Successfully</string>
+    <string name="error_internet">Please check Internet Connection</string>
+<!--    map screen-->
+    <string name="denied">Permission denied</string>
+    <string name="current_loc">Your Current Location</string>
+    <string name="fetching">Fetching Location..</string>
+
+</resources>
