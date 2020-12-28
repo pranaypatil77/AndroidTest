@@ -69,6 +69,8 @@ class LoginActivity : AppCompatActivity(), Callback<loginData> {
     }
 
     // response success
+//    NOTE : https://reqres.in/api/login .. please check this api not working properly
+//    only check username not password .. if type anything in password then get valid token
     override fun onResponse(call: Call<loginData>, response: Response<loginData>?) {
         token = response?.body().toString()
         proBarLogin.visibility = INVISIBLE
